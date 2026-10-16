@@ -1,0 +1,21 @@
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Old Python files that may contain hardcoded credentials
+console/water_leakage.py
+console/water_leakage_backup.py
+console/water_leakage_before_final.py
